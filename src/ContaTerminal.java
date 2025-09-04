@@ -7,7 +7,7 @@ public class ContaTerminal {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Digite o nome do cliente");
-        var nome = scanner.nextLine();
+        var nome = scanner.next();
 
         System.out.println("Digite o numero da sua conta");
         var numeroconta = scanner.nextInt();
